@@ -128,7 +128,6 @@ font-weight:900;}
     background-image: url(img/01-sliders-home/banner/0801-banner-home-01.jpg);
     height: 370px;
     background-size:100% 100%;
-    left:0;
     width: 100%;
     
 
@@ -140,6 +139,7 @@ font-weight:900;}
     height:370px;
     background-size:100% 100%;
     width: 50%;
+  
 }
 
 #tercer-cuadro{
@@ -148,10 +148,43 @@ font-weight:900;}
     padding: 0;
     margin: 0;
     width: 100%;
+   
 }
+
+#tercer-cuadro > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#tercer-cuadro-1 > * {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 #tercer-cuadro .container{
     padding:0;
     margin:0;
     width: 50%;
     display:flex;
+    text-align: center;
+}
+#tercer-cuadro h2{
+    color:rgb(202,131,38);
+    font-size: 13px;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: bold;
+    height: 200px;
+    padding-top: 0;
+    margin-top: 0px;
+    align-items: end;
+}
+#tercer-cuadro p{
+    font-size: 11px;
+    text-align: center;s
+}
+#tercer-cuadro #tercer-cuadro-2 h2{
+    align-items: end;
 }
