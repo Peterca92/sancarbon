@@ -122,8 +122,36 @@ font-weight:900;}
     padding-left: 130px;
     padding-top: 20px;
 }
-.box3 {
-    background-color: brown;
-    height: 20px;
+#tercer-cuadro-1{
     z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url(img/01-sliders-home/banner/0801-banner-home-01.jpg);
+    height: 370px;
+    background-size:100% 100%;
+    left:0;
+    width: 100%;
+    
+
+}
+.tercer-cuadro-2{
+    z-index: -1;
+    background-repeat: no-repeat; 
+    background-image: url(img/01-sliders-home/banner/0801-banner-home-02.jpg);
+    height:370px;
+    background-size:100% 100%;
+    width: 50%;
+}
+
+#tercer-cuadro{
+    display:flex;
+    height: 370px;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+#tercer-cuadro .container{
+    padding:0;
+    margin:0;
+    width: 50%;
+    display:flex;
 }
