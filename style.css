@@ -18,19 +18,33 @@ body{
     display: inline-flex;
     align-content: center;
     justify-content: center;
+    width: 900px;
+    justify-content: space-between;
 }
 
 .texto {
     text-align: center !important;
     display: flex;
-    margin: 10px 10px 0 10px;
-    justify-content: center;
+    margin-top: 80px;
+    justify-content: space-between;
+    position: relative;
 }
-
+.texto:hover::after {
+    background-color: rgb(202,131,38);
+    position: absolute;
+    content: "";
+    width: 70%;
+    height: 1px;
+    bottom: 80px;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    
+}
 .slider-nav li {
     display: flex;
     text-align: center;
-    justify-content: space-between;
+    justify-content: center;
 }
 
 .slider-nav a {
@@ -75,8 +89,8 @@ header .container {
 }
 div div div h1 {
     font-size: 2rem;
-    margin-top:150px;
-    margin-left:260px;
+    margin-top:200px;
+    margin-left:290px;
 }
 .arriba{
 font-weight:100;
@@ -84,12 +98,30 @@ font-weight:100;
 .abajo{
 font-weight:900;}
 
-.box2 {
-    background-color: blue;
-    height: 20px;
-    z-index: -1;
+#segundo-cuadro{
+    background-color: rgb(202,131,38);
+    height:370px;
+    padding-top:30px;
+    z-index: 1;
 }
-
+#san-carbon-restaurante{
+    text-align: center;
+    padding-top: 25px;
+    height:500px;
+}
+#titulo-restaurante{
+    font-size: 13px;
+    text-align: center;
+    font-weight: bold;
+    padding-top: 25px;
+}
+#detalles-restaurante{
+    font-size: 11px;
+    text-align: center;
+    padding-right:130px; 
+    padding-left: 130px;
+    padding-top: 20px;
+}
 .box3 {
     background-color: brown;
     height: 20px;
