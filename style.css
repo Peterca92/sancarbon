@@ -8,11 +8,12 @@ body{
      display: flex;
      margin-left:-66px;
      margin-right: 37px;
+     margin-top:9px;
  }
 
 .slider-nav ul {
     list-style: none;
-    margin-top: 6px;
+    margin-top: 7px;
     padding: 0;
     display: inline-flex;
     align-content: center;
