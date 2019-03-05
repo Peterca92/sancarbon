@@ -75,6 +75,11 @@ header .container {
 div div div h1 {
     font-size: 2rem;
 }
+.arriba{
+font-weight:100;
+}
+.abajo{
+font-weight:900;}
 
 .box2 {
     background-color: blue;
