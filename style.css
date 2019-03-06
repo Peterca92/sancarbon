@@ -1,16 +1,15 @@
-body{
+body {
     font-family: 'Nunito Sans', sans-serif !important;
     color: white !important;
 }
- .tamano-logo{
-     height: 180px;
-     width: 95px;
-     display: flex;
-     margin-left:-66px;
-     margin-right: 37px;
-     margin-top:9px;
- }
-
+.tamano-logo {
+    height: 180px;
+    width: 95px;
+    display: flex;
+    margin-left: -66px;
+    margin-right: 37px;
+    margin-top: 9px;
+}
 .slider-nav ul {
     list-style: none;
     margin-top: 7px;
@@ -21,7 +20,6 @@ body{
     width: 900px;
     justify-content: space-between;
 }
-
 .texto {
     text-align: center !important;
     display: flex;
@@ -30,7 +28,7 @@ body{
     position: relative;
 }
 .texto:hover::after {
-    background-color: rgb(202,131,38);
+    background-color: rgb(202, 131, 38);
     position: absolute;
     content: "";
     width: 70%;
@@ -39,14 +37,12 @@ body{
     margin: 0 auto;
     left: 0;
     right: 0;
-    
 }
 .slider-nav li {
     display: flex;
     text-align: center;
     justify-content: center;
 }
-
 .slider-nav a {
     font-size: 15px;
     text-decoration: none;
@@ -55,24 +51,20 @@ body{
     letter-spacing: 1px;
     display: flex;
 }
-
 .slider-nav {
     justify-content: center;
     display: flex;
     max-width: 2544px;
 }
-
 header .container {
     max-width: 2544px;
     height: 0;
 }
-
 #cuadro1 {
     margin: 0;
     padding: 0;
     height: 800px;
 }
-
 .box1 {
     background-image: url(img/01-sliders-home/slider-home-01.jpg);
     z-index: -1;
@@ -83,98 +75,93 @@ header .container {
     align-items: center;
     justify-content: left;
 }
-#san-carbon-slogan{
-    height:100px;
-    
+#san-carbon-slogan {
+    height: 100px;
 }
 div div div h1 {
     font-size: 2rem;
-    margin-top:200px;
-    margin-left:290px;
+    margin-top: 200px;
+    margin-left: 290px;
 }
-.arriba{
-font-weight:100;
+.arriba {
+    font-weight: 100;
 }
-.abajo{
-font-weight:900;}
-
-#segundo-cuadro{
-    background-color: rgb(202,131,38);
-    height:370px;
+.abajo {
+    font-weight: 900;
+}
+#segundo-cuadro {
+    background-color: rgb(202, 131, 38);
+    height: 370px;
     max-width: 100%;
     margin-bottom: -5px;
     display: flex;
-    align-content: center;
-    justify-content: center;
-  
 }
-#san-carbon-restaurante{
+#san-carbon-restaurante {
     display: flex;
     text-align: center;
-    height:370px;
+    height: 370px;
     flex-direction: column;
-}
-#san-carbon-restaurante > * {
-    display: flex;
-    align-content: center;
     justify-content: center;
 }
-
-
-#titulo-restaurante{
+#titulo-restaurante {
     font-size: 13px;
     text-align: center;
     font-weight: bold;
-    /* padding-top: 25px; */
 }
-#detalles-restaurante{
+#detalles-restaurante {
     font-size: 11px;
     text-align: center;
 }
-    /* padding-right:130px; 
-    padding-left: 130px;
-    padding-top: 20px;
-} */
-#tercer-cuadro-1{
+#tercer-cuadro-1 {
     z-index: -1;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-image: url(img/01-sliders-home/banner/0801-banner-home-01.jpg);
     height: 370px;
-    background-size:100% 100%;
+    background-size: 100% 100%;
     width: 100%;
-    
-
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
 }
-.tercer-cuadro-2{
+#tercer-cuadro-2 {
     z-index: -1;
-    background-repeat: no-repeat; 
+    background-repeat: no-repeat;
     background-image: url(img/01-sliders-home/banner/0801-banner-home-02.jpg);
-    height:370px;
-    background-size:100% 100%;
+    height: 370px;
+    background-size: 100% 100%;
     width: 100%;
-  
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
-
-#tercer-cuadro{
-    display:inline-flex;
+#tercer-cuadro {
+    display: inline-flex;
     height: 370px;
     padding: 0;
     margin: 0;
-    width: 100%;
-   
+    max-width: 100%;
 }
-#tercer-cuadro > * {
-    justify-content: center;
-    align-items: center;
-}
-#tercer-cuadro h2{
-    color:rgb(202,131,38);
+#tercer-cuadro h2 {
+    color: rgb(202, 131, 38);
     font-size: 13px;
     text-align: center;
     letter-spacing: 1px;
     font-weight: bold;
 }
-#tercer-cuadro p{
+#tercer-cuadro p {
     font-size: 11px;
     text-align: center;
+}
+#junio{
+    display: flex;
+    flex-direction: column;
+    align-items: justify;
+    max-width: 100%;
+}
+#junio p{
+    text-align:left;
+    display: block;
+    width: 280px;
+    margin: 0 auto;
 }
