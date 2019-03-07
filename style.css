@@ -35,22 +35,22 @@ body h2, h1 {
     justify-content: space-between;
     position: relative;
 }
-
 .texto:hover::after {
     background-color: rgb(202, 131, 38);
     position: absolute;
     content: "";
     width: 70%;
     height: 1px;
-    bottom: 80px;
+    bottom: 60px;
     margin: 0 auto;
     left: 0;
     right: 0;
 }
 .texto:hover{   
     color:rgba(255,255,255, 0.3);
+    transition: ease .5s;
+    /* border-bottom: solid 1px rgb(202, 131, 38); */
 }
-
 .slider-nav li {
     display: flex;
     text-align: center;
@@ -286,6 +286,7 @@ color: white;
 .reserva-ya-1 a:hover{
     color:rgba(255,255,255, 0.3);
     text-decoration: none;
+    transition: ease .5s;
 }
 footer{
     background-color: rgb(87, 22, 22);
@@ -321,13 +322,29 @@ footer{
 }
 .foot-1 li{
     list-style: none;
-
+    margin: 30px auto;
+}
+.foot-1 .abajo{
+    margin: 20px auto;
+    justify-content:center;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+footer li a{
+    font-size:15px;
+    color: white;
+   
+}
+footer li a:hover{
+    color:rgba(255,255,255, 0.3);
+    text-decoration: none;
+    transition: ease .5s;
 }
 footer{
     height: 800px;
 }
-
-
 .foot-2{
     width: 33.33%;
     display: flex;
